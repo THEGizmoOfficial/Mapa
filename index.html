@@ -71,12 +71,17 @@
                     iconSize: [20, 20],
                 });
 
-                var marker = L.marker([row.PosY, row.PosX], {
-                    icon: icn
-                }).bindPopup(row.PosX + ', ' + row.PosY);
+                var popupContent = `
+                    <div>
+                        <strong>Pozycja:</strong> ${row.PosX}, ${row.PosY}<br>
+                        ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;">` : ''}
+                    </div>
+                `;
+
+                var marker = L.marker([row.PosY, row.PosX], { icon: icn })
+                    .bindPopup(popupContent);
                 marker.addTo(map);
             }
-
         });
     </script>
 </body>
