@@ -31,6 +31,11 @@
 
 <body>
     <div id="map"></div>
+    <div id="counter"
+        style="position: absolute;left: 10px;top: 50%;transform: translateY(-50%);background: rgba(0, 0, 0, 0.521);padding: 8px 12px;border-radius: 8px;font-family: sans-serif;z-index: 1000;color: rgb(255, 255, 255);">
+        Dilerzy: <span id="count">0</span>/30
+    </div>
+
     <script>
         const map = L.map('map', {
             crs: L.CRS.Simple,
@@ -63,25 +68,34 @@
         $.get('points.csv', function (csvString) {
             var data = Papa.parse(csvString, { header: true, dynamicTyping: true }).data;
 
+            let count = 0;
+
             for (var i in data) {
                 var row = data[i];
 
+                if (!row.PosX || !row.PosY) continue;
+
                 var icn = L.icon({
-                    iconUrl: 'images/icons/dealer.png',
-                    iconSize: [20, 20],
+                    iconUrl: 'images/icons/dealer.svg',
+                    iconSize: [30, 30],
                 });
 
                 var popupContent = `
                     <div>
                         <strong>Pozycja:</strong> ${row.PosX}, ${row.PosY}<br>
-                        ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;">` : ''}
+                        ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;"><br>` : ''}
+                        ${row.Description ? `<p style="margin-top:5px; text-align: center; word-wrap: break-word; max-width: 200px; margin-left: auto; margin-right: auto;">${row.Description}</p>` : ''}
                     </div>
                 `;
 
                 var marker = L.marker([row.PosY, row.PosX], { icon: icn })
                     .bindPopup(popupContent);
                 marker.addTo(map);
+
+                count++;
             }
+
+            document.getElementById('count').textContent = count;
         });
     </script>
 </body>

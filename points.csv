@@ -1,11 +1,11 @@
-PosX,PosY,Image
+PosX,PosY,Image,Description
 430.71,6458.15,szopapaleto.png
 59.34,6312.09,paleto.png
 -354.48,4825.26,tunel.png
 -241.01,3660.35,silos.png
 2936.99,4621.10,wagon.png
 1045.52,2653.34,hamownia.png
-2400.26,3124.74
+2360.19,3121.77,zlomowisko.png
 2527.26,2643.78,dinozaur.png
 1524.50,1711.65,szopa.png
 2763.06,1524.04,fabryka.png
@@ -17,4 +17,6 @@ PosX,PosY,Image
 883.63,-1024.43
 1600.49,-1734.93,rafineria.png
 1242.86,-3006.77,statek.png
--2070.96,-1018.61,jacht.png
+-2070.96,-1018.61,jacht.png,W silnikowni na samym koncu
+-59.70,387.63,rezydencja.png
+-446.51,-945.51,budowa.png
