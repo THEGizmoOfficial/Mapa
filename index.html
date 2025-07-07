@@ -21,7 +21,88 @@
         }
 
         html,
-        body,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #map,
+        #counter {
+            display: none;
+        }
+
+        #login {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #1e1e2f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .login-box {
+            background-color: #2b2b3c;
+            padding: 12px;
+            border-radius: 10px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+            color: #ffffff;
+        }
+
+        .login-box h2 {
+            margin-top: auto;
+            font-size: 15px;
+        }
+
+        .login-box p {
+            font-size: 14px;
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #1e1e2e;
+            color: #fff;
+            font-size: 16px;
+            outline: none;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 12px;
+            background: #00b894;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .login-box button:hover {
+            background: #019875;
+        }
+
+        #login #error {
+            display: none;
+            color: #ff7675;
+            margin-bottom: 6px;
+            font-size: 14px;
+        }
+
         #map {
             height: 100%;
             width: 100%;
@@ -30,6 +111,15 @@
 </head>
 
 <body>
+    <div id="login">
+        <div class="login-box">
+            <h2>Wprowadź hasło, aby uzyskać dostęp do mapy</h2>
+            <input type="password" id="password" placeholder="Hasło">
+            <button onclick="checkPassword()">Zaloguj</button>
+            <p id="error">Niepoprawne hasło</p>
+        </div>
+    </div>
+
     <div id="map"></div>
     <div id="counter"
         style="position: absolute;left: 10px;top: 50%;transform: translateY(-50%);background: rgba(0, 0, 0, 0.521);padding: 8px 12px;border-radius: 8px;font-family: sans-serif;z-index: 1000;color: rgb(255, 255, 255);">
@@ -37,67 +127,70 @@
     </div>
 
     <script>
-        const map = L.map('map', {
-            crs: L.CRS.Simple,
-            zoom: -2,
-            minZoom: -3,
-            maxZoom: 1
-        });
+        function initializeMap() {
+            const map = L.map('map', {
+                crs: L.CRS.Simple,
+                zoom: -2,
+                minZoom: -3,
+                maxZoom: 1
+            });
 
-        const bounds = [[-4041, -5690], [8371, 6721]];
-        const satellite = L.imageOverlay('images/maps/satellite.png', bounds).addTo(map);
-        const atlas = L.imageOverlay('images/maps/atlas.png', bounds);
-        var baseMaps = {
-            "Satellite": satellite,
-            "Atlas": atlas
-        };
+            const bounds = [[-4041, -5690], [8371, 6721]];
+            const satellite = L.imageOverlay('images/maps/satellite.png', bounds).addTo(map);
+            const atlas = L.imageOverlay('images/maps/atlas.png', bounds);
+            var baseMaps = {
+                "Satellite": satellite,
+                "Atlas": atlas
+            };
 
-        map.on('baselayerchange', function (layer) {
-            if (layer.name == 'Satellite') {
-                document.getElementById('map').style.background = '#143d6b';
-            }
-            if (layer.name == 'Atlas') {
-                document.getElementById('map').style.background = '#0fa8d2';
-            }
-        });
+            map.on('baselayerchange', function (layer) {
+                if (layer.name == 'Satellite') {
+                    document.getElementById('map').style.background = '#143d6b';
+                }
+                if (layer.name == 'Atlas') {
+                    document.getElementById('map').style.background = '#0fa8d2';
+                }
+            });
 
-        L.control.layers(baseMaps).addTo(map);
-        map.fitBounds(bounds);
-        map.setView([0, 0], -4);
+            L.control.layers(baseMaps).addTo(map);
+            map.fitBounds(bounds);
+            map.setView([0, 0], -4);
 
-        $.get('points.csv', function (csvString) {
-            var data = Papa.parse(csvString, { header: true, dynamicTyping: true }).data;
+            $.get('points.csv', function (csvString) {
+                var data = Papa.parse(csvString, { header: true, dynamicTyping: true }).data;
 
-            let count = 0;
+                let count = 0;
 
-            for (var i in data) {
-                var row = data[i];
+                for (var i in data) {
+                    var row = data[i];
 
-                if (!row.PosX || !row.PosY) continue;
+                    if (!row.PosX || !row.PosY) continue;
 
-                var icn = L.icon({
-                    iconUrl: 'images/icons/dealer.svg',
-                    iconSize: [30, 30],
-                });
+                    var icn = L.icon({
+                        iconUrl: 'images/icons/dealer.svg',
+                        iconSize: [30, 30],
+                    });
 
-                var popupContent = `
-                    <div>
-                        <strong>Pozycja:</strong> ${row.PosX}, ${row.PosY}<br>
-                        ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;"><br>` : ''}
-                        ${row.Description ? `<p style="margin-top:5px; text-align: center; word-wrap: break-word; max-width: 200px; margin-left: auto; margin-right: auto;">${row.Description}</p>` : ''}
-                    </div>
-                `;
+                    var popupContent = `
+                        <div>
+                            <strong>Pozycja:</strong> ${row.PosX}, ${row.PosY}<br>
+                            ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;"><br>` : ''}
+                            ${row.Description ? `<p style="margin-top:5px; text-align: center; word-wrap: break-word; max-width: 200px; margin-left: auto; margin-right: auto;">${row.Description}</p>` : ''}
+                        </div>
+                    `;
 
-                var marker = L.marker([row.PosY, row.PosX], { icon: icn })
-                    .bindPopup(popupContent);
-                marker.addTo(map);
+                    var marker = L.marker([row.PosY, row.PosX], { icon: icn })
+                        .bindPopup(popupContent);
+                    marker.addTo(map);
 
-                count++;
-            }
+                    count++;
+                }
 
-            document.getElementById('count').textContent = count;
-        });
+                document.getElementById('count').textContent = count;
+            });
+        }
     </script>
+    <script src="images/maps/script.js"></script>
 </body>
 
 </html>
