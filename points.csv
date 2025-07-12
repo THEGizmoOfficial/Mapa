@@ -1,5 +1,5 @@
 PosX,PosY,Image,Description
-430.71,6458.15,szopapaleto.png
+430.71,6458.15,szopapaleto.png,Pozycja teoretyczna poniewaz nie mam dowodu w postaci foty dilera
 59.34,6312.09,paleto.png
 -354.48,4825.26,tunel.png
 -241.01,3660.35,silos.png
@@ -20,3 +20,7 @@ PosX,PosY,Image,Description
 -2070.96,-1018.61,jacht.png,W silnikowni na samym koncu
 -59.70,387.63,rezydencja.png
 -446.51,-945.51,budowa.png
+277.61,6781.94,paletokamper.png
+-284.81,6304.23,paletogaraz.png
+2437.71,4966.54,dom_o-neil.png,W piwnicy domu braci o'neil
+-3109.10,751.87,dom.png
