@@ -103,6 +103,36 @@
             font-size: 14px;
         }
 
+        #imageZoom {
+            display: none;
+            position: fixed;
+            z-index: 99999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        #imageZoom img {
+            display: block;
+            margin: 5% auto;
+            max-width: 90%;
+            max-height: 80vh;
+            border-radius: 10px;
+        }
+
+        #imageZoom span {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
         #map {
             height: 100%;
             width: 100%;
@@ -118,6 +148,11 @@
             <button onclick="checkPassword()">Zaloguj</button>
             <p id="error">Niepoprawne hasło</p>
         </div>
+    </div>
+
+    <div id="imageZoom">
+        <span onclick="closeimageZoom()">&times;</span>
+        <img id="imageModel" src="">
     </div>
 
     <div id="map"></div>
@@ -174,7 +209,7 @@
                     var popupContent = `
                         <div>
                             <strong>Pozycja:</strong> ${row.PosX}, ${row.PosY}<br>
-                            ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;"><br>` : ''}
+                            ${row.Image ? `<img src="images/location/${row.Image}" alt="obrazek" style="width:200px;max-width:100%;border-radius:8px;cursor:pointer;" onclick="openimageZoom(this.src)"><br>` : ''}
                             ${row.Description ? `<p style="margin-top:5px; text-align: center; word-wrap: break-word; max-width: 200px; margin-left: auto; margin-right: auto;">${row.Description}</p>` : ''}
                         </div>
                     `;
@@ -188,6 +223,14 @@
 
                 document.getElementById('count').textContent = count;
             });
+        }
+        function openimageZoom(src) {
+            document.getElementById("imageModel").src = src;
+            document.getElementById("imageZoom").style.display = "block";
+        }
+
+        function closeimageZoom() {
+            document.getElementById("imageZoom").style.display = "none";
         }
     </script>
     <script src="images/maps/script.js"></script>
