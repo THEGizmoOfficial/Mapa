@@ -1,5 +1,4 @@
 PosX,PosY,Image,Description
-430.71,6458.15,szopapaleto.png,Pozycja teoretyczna poniewaz nie mam dowodu w postaci foty dilera
 59.34,6312.09,paleto.png
 -354.48,4825.26,tunel.png
 -241.01,3660.35,silos.png
@@ -9,12 +8,10 @@ PosX,PosY,Image,Description
 2527.26,2643.78,dinozaur.png
 1524.50,1711.65,szopa.png
 2763.06,1524.04,fabryka.png
-245.51,359.21,,Pozycja teoretyczna poniewaz nie mam dowodu w postaci foty dilera
 -218.62,-267.03,plaza.png
 -1147.57,-1452.07,sad.png
 -621.65,-1749.73,zlom.png
 705.09,-1236.80,skatepark.png
-883.63,-1024.43,,Pozycja teoretyczna poniewaz nie mam dowodu w postaci foty dilera
 1600.49,-1734.93,rafineria.png
 1242.86,-3006.77,statek.png
 -2070.96,-1018.61,jacht.png,W silnikowni na samym koncu
@@ -28,3 +25,4 @@ PosX,PosY,Image,Description
 1540.66,3593.57,hotel.png
 457.15,5569.89,chiliad.png
 -303.09,2541.66,chatka.png
+1174.49,-388.56,gsm.png
