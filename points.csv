@@ -1,30 +1,38 @@
-PosX,PosY,Image,Description
-59.34,6312.09,paleto.png
--354.48,4825.26,tunel.png
--241.01,3660.35,silos.png
-2936.99,4621.10,wagon.png
-1045.52,2653.34,hamownia.png
-2360.19,3121.77,zlomowisko.png
-2527.26,2643.78,dinozaur.png
-1524.50,1711.65,szopa.png
-2763.06,1524.04,fabryka.png
--218.62,-267.03,plaza.png
--1147.57,-1452.07,sad.png
--621.65,-1749.73,zlom.png
-705.09,-1236.80,skatepark.png
-1600.49,-1734.93,rafineria.png
-1242.86,-3006.77,statek.png
--2070.96,-1018.61,jacht.png,W silnikowni na samym koncu
--59.70,387.63,rezydencja.png
--446.51,-945.51,budowa.png
-277.61,6781.94,paletokamper.png
--288.27,6299.28,paletogaraz.png
-2437.71,4966.54,dom_o-neil.png,W piwnicy domu braci o'neil
--3109.10,751.87,dom.png
-2485.23,3719.02,obozhipisow.png
-1540.66,3593.57,hotel.png
-457.15,5569.89,chiliad.png
--303.09,2541.66,chatka.png
-1174.49,-388.56,gsm.png
-995.13,2286.12,torredwood.png
--301.74,-2603.41,doki.png
+PosX,PosY,Image,Description,Title,Type
+59.34,6312.09,paleto.png,,Paleto,Dealer
+-354.48,4825.26,tunel.png,,Tunel,Dealer
+-241.01,3660.35,silos.png,,Silos,Dealer
+2936.99,4621.10,wagon.png,,Wagon,Dealer
+1045.52,2653.34,hamownia.png,,Hamownia,Dealer
+2360.19,3121.77,zlomowisko.png,,Zlom Samoloty,Dealer
+2527.26,2643.78,dinozaur.png,,Dino,Dealer
+1524.50,1711.65,szopa.png,,Szopa,Dealer
+2763.06,1524.04,fabryka.png,,Fabryka,Dealer
+-218.62,-267.03,plaza.png,,Flotto,Dealer
+-1147.57,-1452.07,sad.png,,Sad,Dealer
+-621.65,-1749.73,zlom.png,,Zlom,Dealer
+705.09,-1236.80,skatepark.png,,Skatepark,Dealer
+1600.49,-1734.93,rafineria.png,,Rafineria,Dealer
+1242.86,-3006.77,statek.png,,Statek,Dealer
+-2070.96,-1018.61,jacht.png,W silnikowni na samym koncu,Jacht,Dealer
+-59.70,387.63,rezydencja.png,,Dom Marcina xD,Dealer
+-446.51,-945.51,budowa.png,,Budowa,Dealer
+277.61,6781.94,paletokamper.png,,Kamper,Dealer
+-288.27,6299.28,paletogaraz.png,,Garaz,Dealer
+2437.71,4966.54,dom_o-neil.png,W piwnicy domu braci o'neil,O-neil,Dealer
+-3109.10,751.87,dom.png,,Dom,Dealer
+2485.23,3719.02,obozhipisow.png,,Oboz hipisow (Ufo),Dealer
+1540.66,3593.57,hotel.png,,Hotel,Dealer
+457.15,5569.89,chiliad.png,,Gora chiliad,Dealer
+-303.09,2541.66,chatka.png,,Chatka,Dealer
+1174.49,-388.56,gsm.png,,GSM,Dealer
+995.13,2286.12,torredwood.png,,Torredwood (Tor),Dealer
+-301.74,-2603.41,doki.png,,Doki,Dealer
+-1029.33,-2729.98,bot1.png,Daje wskazówkę #1 do lokalizacji walizki,Start Bot #1,Event
+-1310.49,-1521.55,item1.png,Pozycja walizki ktora trzeba oddac Botu #2,Item #1,Event
+-1046.88,-2751.06,bot2.png,Wymienia walizke / zabiera wskazówkę #1 daje wskazówkę #2 oraz #3,Bot #2,Event
+2744.30,3515.82,bot3.png,[UWAGA! bot respi sie w przedziale 9-17 godzina w grze] Wymienia wskazówkę #2 na #4 z lokalizacja,Bot #3,Event
+1706.13,4923.79,bot4.png,[UWAGA! bot respi sie w nocy moj czas byl okolo 2:30] Wymienia wskazówkę #4 na #5 z lokalizacja oraz mowi ci zebys zabral wode 1szt 2L wody,Bot #4,Event
+1552.80,3523.34,bot5.png,[UWAGA! bot respi sie w nocy stoi do 9 rano] Wymienia wskazówkę #5 i wode 2L na wskazówkę #6 oraz laptopa,Bot #5,Event
+-253.94,6148.60,bot6.png,[UWAGA! bot respi sie o 9 rano] Wymienia Laptopa / moduł elektroniczny / wskazówkę #6 na wskazówkę #7 Wazne po tej wymianie liczone jest 12 godzin (IRL) do naprawy laptopa,Bot #6,Event
+-565.65,-1057.69,bot7.png,[UWAGA! bot respi sie o 9 do 17] dane beda dostepne jak oddam laptopa XDD,Bot #7,Event
