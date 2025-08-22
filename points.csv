@@ -35,4 +35,5 @@ PosX,PosY,Image,Description,Title,Type
 1706.13,4923.79,bot4.png,[UWAGA! bot respi sie w nocy moj czas byl okolo 2:30] Wymienia wskazówkę #4 na #5 z lokalizacja oraz mowi ci zebys zabral wode 1szt 2L wody,Bot #4,Event
 1552.80,3523.34,bot5.png,[UWAGA! bot respi sie w nocy stoi do 9 rano] Wymienia wskazówkę #5 i wode 2L na wskazówkę #6 oraz laptopa,Bot #5,Event
 -253.94,6148.60,bot6.png,[UWAGA! bot respi sie o 9 rano] Wymienia Laptopa / moduł elektroniczny / wskazówkę #6 na wskazówkę #7 Wazne po tej wymianie liczone jest 12 godzin (IRL) do naprawy laptopa,Bot #6,Event
--565.65,-1057.69,bot7.png,[UWAGA! bot respi sie o 9 do 17] dane beda dostepne jak oddam laptopa XDD,Bot #7,Event
+-565.65,-1057.69,bot7.png,[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #7 na laptopa i wskazówkę #8,Bot #7,Event
+-981.69,-756.69,bot8.png,[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #3 na wskazówkę #9,Bot #8,Event
