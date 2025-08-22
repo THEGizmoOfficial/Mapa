@@ -37,3 +37,6 @@ PosX,PosY,Image,Description,Title,Type
 -253.94,6148.60,bot6.png,[UWAGA! bot respi sie o 9 rano] Wymienia Laptopa / moduł elektroniczny / wskazówkę #6 na wskazówkę #7 Wazne po tej wymianie liczone jest 12 godzin (IRL) do naprawy laptopa,Bot #6,Event
 -565.65,-1057.69,bot7.png,[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #7 na laptopa i wskazówkę #8,Bot #7,Event
 -981.69,-756.69,bot8.png,[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #3 na wskazówkę #9,Bot #8,Event
+-362.87,-256.62,bot9.png,[UWAGA! bot respi sie o 8] Wymienia wskazówkę #9 na #10,Bot #9,Event
+1183.53,-3311.92,bot10.png,Wymienia Laptopa / wskazówkę #8 i #10 na wskazówkę #11,Bot #10,Event
+-234.66,-914.41,bot11.png,(soon),Bot #11,Event
