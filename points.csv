@@ -34,9 +34,12 @@ PosX,PosY,Image,Description,Title,Type
 2744.30,3515.82,bot3.png,[UWAGA! bot respi sie w przedziale 9-17 godzina w grze] Wymienia wskazówkę #2 na #4 z lokalizacja,Bot #3,Event
 1706.13,4923.79,bot4.png,[UWAGA! bot respi sie w nocy moj czas byl okolo 2:30] Wymienia wskazówkę #4 na #5 z lokalizacja oraz mowi ci zebys zabral wode 1szt 2L wody,Bot #4,Event
 1552.80,3523.34,bot5.png,[UWAGA! bot respi sie w nocy stoi do 9 rano] Wymienia wskazówkę #5 i wode 2L na wskazówkę #6 oraz laptopa,Bot #5,Event
--253.94,6148.60,bot6.png,[UWAGA! bot respi sie o 9 rano] Wymienia Laptopa / moduł elektroniczny / wskazówkę #6 na wskazówkę #7 Wazne po tej wymianie liczone jest 12 godzin (IRL) do naprawy laptopa,Bot #6,Event
+-253.94,6148.60,bot6.png,[UWAGA! bot respi sie o 9 rano] Wymienia Laptopa / moduł elektroniczny / wskazówkę #6 na wskazówkę #7 Wazne po tej wymianie liczone jest 12 godzin IRL do naprawy laptopa,Bot #6,Event
 -565.65,-1057.69,bot7.png,[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #7 na laptopa i wskazówkę #8,Bot #7,Event
 -981.69,-756.69,bot8.png,[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #3 na wskazówkę #9,Bot #8,Event
 -362.87,-256.62,bot9.png,[UWAGA! bot respi sie o 8] Wymienia wskazówkę #9 na #10,Bot #9,Event
-1183.53,-3311.92,bot10.png,Wymienia Laptopa / wskazówkę #8 i #10 na wskazówkę #11,Bot #10,Event
--234.66,-914.41,bot11.png,(soon),Bot #11,Event
+1183.53,-3311.92,bot10.png,Wymienia Laptopa / wskazówkę #8 i #10 na wskazówkę #11 Po tym jest liczone 6h IRL zeby odebrac paczke od bota #11,Bot #10,Event
+-234.66,-914.41,bot11.png,[UWAGA! bot respi sie o 12] Wymienia wskazówkę #11 na zlecenie przelewu i zaproszenie,Bot #11,Event
+309.53,-275.16,bot12.png,Wymienia zlecenie przelewu na wskazówkę #12 i 500$,Bot #12,Event
+-2000.70,2583.53,item2.png,[Wymaga relogu] Lokalizacja torby ktora musisz oddac botu #13,Item #2,Event
+-669.75,724.18,bot13.png,Wymienia torbe i wskazówkę #12 na 5k ,Bot #13,Event
