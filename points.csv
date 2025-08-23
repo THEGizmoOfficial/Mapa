@@ -41,5 +41,15 @@ PosX,PosY,Image,Description,Title,Type
 1183.53,-3311.92,bot10.png,Wymienia Laptopa / wskazówkę #8 i #10 na wskazówkę #11 Po tym jest liczone 6h IRL zeby odebrac paczke od bota #11,Bot #10,Event
 -234.66,-914.41,bot11.png,[UWAGA! bot respi sie o 12] Wymienia wskazówkę #11 na zlecenie przelewu i zaproszenie,Bot #11,Event
 309.53,-275.16,bot12.png,Wymienia zlecenie przelewu na wskazówkę #12 i 500$,Bot #12,Event
--2000.70,2583.53,item2.png,[Wymaga relogu] Lokalizacja torby ktora musisz oddac botu #13,Item #2,Event
--669.75,724.18,bot13.png,Wymienia torbe i wskazówkę #12 na 5k ,Bot #13,Event
+-2000.70,2583.53,item2.png,[Wymaga relogu na punkcie] Lokalizacja torby ktora musisz oddac botu #13,Item #2,Event
+-669.75,724.18,bot13.png,Wymienia torbe i wskazówkę #12 na 5k,Bot #13,Event
+-2068.90,-1019.57,bot14.png,[UWAGA! bot respi sie o 20 do 6] Wymienia zaproszenie na wskazówkę #13,Bot #14,Event
+-554.98,278.15,item3.png,[Wymaga relogu na punkcie] Lokalizacja czarne walizki,Item #3,Event
+-294.78,2529.21,bot15.png,Wymienia wskazówkę #13 oraz wskazówkę #14 na Karte #1 i wskazówkę #15,Bot #15,Event
+515.05,3097.90,bot16.png,[UWAGA! bot respi sie o 10] Wymienia wskazówkę #15 na karta #2 i wskazówkę #16 ,Bot #16,Event
+-1593.58,5204.94,bot17.png,Wymienia wskazówkę #16 na #17,Bot #17,Event
+-1593.17,5239.19,item4.png,[Wymaga relogu na punkcie] Lokalizacja smieci w wodzie,Item #4,Event
+2812.49,6031.64,bot18.png,[UWAGA! bot respi w porach nocnych] Wymienia piwo i wskazówkę #18 za 5k,Bot #18,Event
+-2166.47,5198.30,bot19.png,Wymienia doniczke / ziemie / wskazówkę #19 i #17 na karte #4 i wskazówkę #20,Bot #19,Event
+117.15,-747.25,bot20.png,[UWAGA! bot respi sie o 7] Wymienia moduł elektroniczny oraz wskazówkę #20 i karty #1-4 na wskazówkę #21 Wazne po tej wymianie liczone jest 6 godzin IRL zeby odebrac cos od bota #21,Bot #20,Event
+136.17,-761.41,bot21.png,(soon),Bot #21,Event
