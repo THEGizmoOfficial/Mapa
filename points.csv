@@ -28,6 +28,7 @@ PosX,PosY,Image,Description,Title,Type
 1174.49,-388.56,gsm.png,,GSM,Dealer
 995.13,2286.12,torredwood.png,,Torredwood (Tor),Dealer
 -301.74,-2603.41,doki.png,,Doki,Dealer
+918.78,3203.49,tory.png,,Tory,Dealer
 -1029.33,-2729.98,bot1.png,Daje wskazówkę #1 do lokalizacji walizki,Start Bot #1,Event
 -1310.49,-1521.55,item1.png,Pozycja walizki ktora trzeba oddac Botu #2,Item #1,Event
 -1046.88,-2751.06,bot2.png,Wymienia walizke / zabiera wskazówkę #1 daje wskazówkę #2 oraz #3,Bot #2,Event
