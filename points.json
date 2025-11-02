@@ -1,0 +1,498 @@
+[
+    {
+        "PosX": 59.34,
+        "PosY": 6312.09,
+        "Image": "d/D1.png",
+        "Description": "",
+        "Title": "Paleto",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -354.48,
+        "PosY": 4825.26,
+        "Image": "d/D2.png",
+        "Description": "",
+        "Title": "Tunel",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -241.01,
+        "PosY": 3660.35,
+        "Image": "d/D3.png",
+        "Description": "",
+        "Title": "Silos",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 2936.99,
+        "PosY": 4621.10,
+        "Image": "d/D4.png",
+        "Description": "",
+        "Title": "Wagon",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 1045.52,
+        "PosY": 2653.34,
+        "Image": "d/D5.png",
+        "Description": "",
+        "Title": "Hamownia",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 2360.19,
+        "PosY": 3121.77,
+        "Image": "d/D6.png",
+        "Description": "",
+        "Title": "Zlom Samoloty",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 2527.26,
+        "PosY": 2643.78,
+        "Image": "d/D7.png",
+        "Description": "",
+        "Title": "Dino",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 1524.50,
+        "PosY": 1711.65,
+        "Image": "d/D8.png",
+        "Description": "",
+        "Title": "Szopa",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 2763.06,
+        "PosY": 1524.04,
+        "Image": "d/D9.png",
+        "Description": "",
+        "Title": "Fabryka",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -218.62,
+        "PosY": -267.03,
+        "Image": "d/D10.png",
+        "Description": "",
+        "Title": "Flotto",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -1147.57,
+        "PosY": -1452.07,
+        "Image": "d/D11.png",
+        "Description": "",
+        "Title": "Sad",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -621.65,
+        "PosY": -1749.73,
+        "Image": "d/D12.png",
+        "Description": "",
+        "Title": "Zlom",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 705.09,
+        "PosY": -1236.80,
+        "Image": "d/D13.png",
+        "Description": "",
+        "Title": "Skatepark",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 1600.49,
+        "PosY": -1734.93,
+        "Image": "d/D14.png",
+        "Description": "",
+        "Title": "Rafineria",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 1242.86,
+        "PosY": -3006.77,
+        "Image": "d/D15.png",
+        "Description": "",
+        "Title": "Statek",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -2070.96,
+        "PosY": -1018.61,
+        "Image": "d/D16.png",
+        "Description": "W silnikowni na samym koncu",
+        "Title": "Jacht",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -59.70,
+        "PosY": 387.63,
+        "Image": "d/D17.png",
+        "Description": "",
+        "Title": "Dom Marcina xD",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -446.51,
+        "PosY": -945.51,
+        "Image": "d/D18.png",
+        "Description": "",
+        "Title": "Budowa",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 277.61,
+        "PosY": 6781.94,
+        "Image": "d/D19.png",
+        "Description": "",
+        "Title": "Kamper",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -288.27,
+        "PosY": 6299.28,
+        "Image": "d/D20.png",
+        "Description": "",
+        "Title": "Garaz",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 2437.71,
+        "PosY": 4966.54,
+        "Image": "d/D21.png",
+        "Description": "W piwnicy domu braci o'neil",
+        "Title": "O-neil",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -3109.10,
+        "PosY": 751.87,
+        "Image": "d/D22.png",
+        "Description": "",
+        "Title": "Dom",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 2485.23,
+        "PosY": 3719.02,
+        "Image": "d/D23.png",
+        "Description": "",
+        "Title": "Oboz hipisow (Ufo)",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 1540.66,
+        "PosY": 3593.57,
+        "Image": "d/D24.png",
+        "Description": "",
+        "Title": "Hotel",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 457.15,
+        "PosY": 5569.89,
+        "Image": "d/D25.png",
+        "Description": "",
+        "Title": "Gora chiliad",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -303.09,
+        "PosY": 2541.66,
+        "Image": "d/D26.png",
+        "Description": "",
+        "Title": "Chatka",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 1174.49,
+        "PosY": -388.56,
+        "Image": "d/D27.png",
+        "Description": "",
+        "Title": "GSM",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 995.13,
+        "PosY": 2286.12,
+        "Image": "d/D28.png",
+        "Description": "",
+        "Title": "Torredwood (Tor)",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -301.74,
+        "PosY": -2603.41,
+        "Image": "d/D29.png",
+        "Description": "",
+        "Title": "Doki",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": 918.78,
+        "PosY": 3203.49,
+        "Image": "d/D30.png",
+        "Description": "",
+        "Title": "Tory",
+        "Type": "Dealer"
+    },
+    {
+        "PosX": -1029.33,
+        "PosY": -2729.98,
+        "Image": "vacation25/bot1.png",
+        "Description": "Daje wskazówkę #1 do lokalizacji walizki",
+        "Title": "Start Bot #1",
+        "Type": "Event"
+    },
+    {
+        "PosX": -1310.49,
+        "PosY": -1521.55,
+        "Image": "vacation25/item1.png",
+        "Description": "Pozycja walizki ktora trzeba oddac Botu #2",
+        "Title": "Item #1",
+        "Type": "Event"
+    },
+    {
+        "PosX": -1046.88,
+        "PosY": -2751.06,
+        "Image": "vacation25/bot2.png",
+        "Description": "Wymienia walizke / zabiera wskazówkę #1 daje wskazówkę #2 oraz #3",
+        "Title": "Bot #2",
+        "Type": "Event"
+    },
+    {
+        "PosX": 2744.30,
+        "PosY": 3515.82,
+        "Image": "vacation25/bot3.png",
+        "Description": "[UWAGA! bot respi sie w przedziale 9-17 godzina w grze] Wymienia wskazówkę #2 na #4 z lokalizacja",
+        "Title": "Bot #3",
+        "Type": "Event"
+    },
+    {
+        "PosX": 1706.13,
+        "PosY": 4923.79,
+        "Image": "vacation25/bot4.png",
+        "Description": "[UWAGA! bot respi sie w nocy moj czas byl okolo 2:30] Wymienia wskazówkę #4 na #5 z lokalizacja oraz mowi ci zebys zabral wode 1szt 2L wody",
+        "Title": "Bot #4",
+        "Type": "Event"
+    },
+    {
+        "PosX": 1552.80,
+        "PosY": 3523.34,
+        "Image": "vacation25/bot5.png",
+        "Description": "[UWAGA! bot respi sie w nocy stoi do 9 rano] Wymienia wskazówkę #5 i wode 2L na wskazówkę #6 oraz laptopa",
+        "Title": "Bot #5",
+        "Type": "Event"
+    },
+    {
+        "PosX": -253.94,
+        "PosY": 6148.60,
+        "Image": "vacation25/bot6.png",
+        "Description": "[UWAGA! bot respi sie o 9 rano] Wymienia Laptopa / moduł elektroniczny / wskazówkę #6 na wskazówkę #7 Wazne po tej wymianie liczone jest 12 godzin IRL do naprawy laptopa",
+        "Title": "Bot #6",
+        "Type": "Event"
+    },
+    {
+        "PosX": -565.65,
+        "PosY": -1057.69,
+        "Image": "vacation25/bot7.png",
+        "Description": "[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #7 na laptopa i wskazówkę #8",
+        "Title": "Bot #7",
+        "Type": "Event"
+    },
+    {
+        "PosX": -981.69,
+        "PosY": -756.69,
+        "Image": "vacation25/bot8.png",
+        "Description": "[UWAGA! bot respi sie o 9 do 17] Wymienia wskazówkę #3 na wskazówkę #9",
+        "Title": "Bot #8",
+        "Type": "Event"
+    },
+    {
+        "PosX": -362.87,
+        "PosY": -256.62,
+        "Image": "vacation25/bot9.png",
+        "Description": "[UWAGA! bot respi sie o 8] Wymienia wskazówkę #9 na #10",
+        "Title": "Bot #9",
+        "Type": "Event"
+    },
+    {
+        "PosX": 1183.53,
+        "PosY": -3311.92,
+        "Image": "vacation25/bot10.png",
+        "Description": "Wymienia Laptopa / wskazówkę #8 i #10 na wskazówkę #11 Po tym jest liczone 6h IRL zeby odebrac paczke od bota #11",
+        "Title": "Bot #10",
+        "Type": "Event"
+    },
+    {
+        "PosX": -234.66,
+        "PosY": -914.41,
+        "Image": "vacation25/bot11.png",
+        "Description": "[UWAGA! bot respi sie o 12] Wymienia wskazówkę #11 na zlecenie przelewu i zaproszenie",
+        "Title": "Bot #11",
+        "Type": "Event"
+    },
+    {
+        "PosX": 309.53,
+        "PosY": -275.16,
+        "Image": "vacation25/bot12.png",
+        "Description": "Wymienia zlecenie przelewu na wskazówkę #12 i 500$",
+        "Title": "Bot #12",
+        "Type": "Event"
+    },
+    {
+        "PosX": -2000.70,
+        "PosY": 2583.53,
+        "Image": "vacation25/item2.png",
+        "Description": "[Wymaga relogu na punkcie] Lokalizacja torby ktora musisz oddac botu #13",
+        "Title": "Item #2",
+        "Type": "Event"
+    },
+    {
+        "PosX": -669.75,
+        "PosY": 724.18,
+        "Image": "vacation25/bot13.png",
+        "Description": "Wymienia torbe i wskazówkę #12 na 5k",
+        "Title": "Bot #13",
+        "Type": "Event"
+    },
+    {
+        "PosX": -2068.90,
+        "PosY": -1019.57,
+        "Image": "vacation25/bot14.png",
+        "Description": "[UWAGA! bot respi sie o 20 do 6] Wymienia zaproszenie na wskazówkę #13",
+        "Title": "Bot #14",
+        "Type": "Event"
+    },
+    {
+        "PosX": -554.98,
+        "PosY": 278.15,
+        "Image": "vacation25/item3.png",
+        "Description": "[Wymaga relogu na punkcie] Lokalizacja czarne walizki",
+        "Title": "Item #3",
+        "Type": "Event"
+    },
+    {
+        "PosX": -294.78,
+        "PosY": 2529.21,
+        "Image": "vacation25/bot15.png",
+        "Description": "Wymienia wskazówkę #13 oraz wskazówkę #14 na Karte #1 i wskazówkę #15",
+        "Title": "Bot #15",
+        "Type": "Event"
+    },
+    {
+        "PosX": 515.05,
+        "PosY": 3097.90,
+        "Image": "vacation25/bot16.png",
+        "Description": "[UWAGA! bot respi sie o 10] Wymienia wskazówkę #15 na karta #2 i wskazówkę #16",
+        "Title": "Bot #16",
+        "Type": "Event"
+    },
+    {
+        "PosX": -1593.58,
+        "PosY": 5204.94,
+        "Image": "vacation25/bot17.png",
+        "Description": "Wymienia wskazówkę #16 na #17",
+        "Title": "Bot #17",
+        "Type": "Event"
+    },
+    {
+        "PosX": -1593.17,
+        "PosY": 5239.19,
+        "Image": "vacation25/item4.png",
+        "Description": "[Wymaga relogu na punkcie] Lokalizacja smieci w wodzie",
+        "Title": "Item #4",
+        "Type": "Event"
+    },
+    {
+        "PosX": 2812.49,
+        "PosY": 6031.64,
+        "Image": "vacation25/bot18.png",
+        "Description": "[UWAGA! bot respi w porach nocnych] Wymienia piwo i wskazówkę #18 na 5k",
+        "Title": "Bot #18",
+        "Type": "Event"
+    },
+    {
+        "PosX": -2166.47,
+        "PosY": 5198.30,
+        "Image": "vacation25/bot19.png",
+        "Description": "Wymienia doniczke / ziemie / wskazówkę #19 i #17 na karte #4 i wskazówkę #20",
+        "Title": "Bot #19",
+        "Type": "Event"
+    },
+    {
+        "PosX": 117.15,
+        "PosY": -747.25,
+        "Image": "vacation25/bot20.png",
+        "Description": "[UWAGA! bot respi sie o 7] Wymienia moduł elektroniczny oraz wskazówkę #20 i karty #1-4 na wskazówkę #21 Wazne po tej wymianie liczone jest 6 godzin IRL zeby odebrac cos od bota #21",
+        "Title": "Bot #20",
+        "Type": "Event"
+    },
+    {
+        "PosX": 136.17,
+        "PosY": -761.41,
+        "Image": "vacation25/bot21.png",
+        "Description": "[UWAGA! bot respi sie o 7] Wymienia wskazówkę #21 na #22",
+        "Title": "Bot #21",
+        "Type": "Event"
+    },
+    {
+        "PosX": -1913.83,
+        "PosY": 1388.26,
+        "Image": "vacation25/bot22.png",
+        "Description": "Wymienia wskazówkę #22 na Wakacje 2025 i 30k",
+        "Title": "Koniec Bot #22",
+        "Type": "Event"
+    },
+    {
+        "PosX": -435.65,
+        "PosY": 2060.44,
+        "Image": "vacation25/bot23.png",
+        "Description": "[Po wejsciu do jaskini nalezy isc w lewo i potem prawo] Wymienia Wakacje 2025 na Wakacje 2025 i Wakacje 2025",
+        "Title": "Bonus Bot #23",
+        "Type": "Event"
+    },
+    {
+        "PosX": -1684.81,
+        "PosY": -291.49,
+        "Image": "halloween25/H25_1.png",
+        "Description": "Daje wskazówkę #1",
+        "Title": "Start Bot #1",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 2510.26,
+        "PosY": 3788.88,
+        "Image": "halloween25/H25_2.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna] Zabiera trumne i wskazówkę #1 daje wskazówkę #2",
+        "Title": "Bot #2",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 2573.45,
+        "PosY": 3903.95,
+        "Image": "halloween25/H25_3.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna] Zabiera trumne i wskazówkę #2 daje wskazówkę #3",
+        "Title": "Bot #3",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 2634.16,
+        "PosY": 2932.33,
+        "Image": "halloween25/H25_4.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna] Zabiera trumne i wskazówkę #3 daje wskazówkę #4",
+        "Title": "Bot #4",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": -435.04,
+        "PosY": 1089.75,
+        "Image": "halloween25/H25_5.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna i 5x moduł elektroniczny] Zabiera trumne, 5x moduł elektroniczny i wskazówkę #4 daje wskazówkę #5",
+        "Title": "Bot #5",
+        "Type": "Halloween"
+    }
+]
