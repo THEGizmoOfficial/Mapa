@@ -494,5 +494,61 @@
         "Description": "(Spawn 20-4)[Wymaga itemu trumna i 5x moduł elektroniczny] Zabiera trumne, 5x moduł elektroniczny i wskazówkę #4 daje wskazówkę #5",
         "Title": "Bot #5",
         "Type": "Halloween"
+    },
+    {
+        "PosX": -527.60,
+        "PosY": 4551.55,
+        "Image": "halloween25/H25_6.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna i woda 2l] Zabiera trumne, wode 2l i wskazówkę #5 daje wskazówkę #6",
+        "Title": "Bot #6",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": -87.07,
+        "PosY": 6156.99,
+        "Image": "halloween25/H25_7.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna] Zabiera trumne i wskazówkę #6 daje wskazówkę #7",
+        "Title": "Bot #7",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 175.03,
+        "PosY": -598.62,
+        "Image": "halloween25/H25_8.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu trumna] Zabiera trumne i wskazówkę #7 daje wskazówkę #8",
+        "Title": "Bot #8",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 3204.85,
+        "PosY": 4733.15,
+        "Image": "halloween25/H25_9.png",
+        "Description": "(Spawn 20-4)[Wymaga itemu 5x trumna] Zabiera 5x trumne i wskazówkę #8 daje skrzynka halloween 1 (2018), skrzynka halloween 2 (2019), skrzynka halloween 3 (2020), skrzynka halloween 4 (2021), skrzynka halloween 5 (2022), skrzynka halloween 6 (2022), skrzynka halloween 7 (2023), skrzynka halloween 8 (2023), skrzynka halloween 9 (2025), dyplom halloween 2025 i 20000$",
+        "Title": "Koniec Bot #9",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": -8.14,
+        "PosY": -581.83,
+        "Image": "halloween25/H25_10.png",
+        "Description": "(Spawn 20-4) Daje mózg zombie",
+        "Title": "Bonus Bot #10",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 71.04,
+        "PosY": -792.84,
+        "Image": "halloween25/H25_11.png",
+        "Description": "(Spawn 20-4) Daje trumne",
+        "Title": "Bonus Bot #11",
+        "Type": "Halloween"
+    },
+    {
+        "PosX": 159.44,
+        "PosY": -562.55,
+        "Image": "halloween25/H25_12.png",
+        "Description": "(Spawn 20-4) Daje piwo pi&wasser",
+        "Title": "Bonus Bot #12",
+        "Type": "Halloween"
     }
 ]
