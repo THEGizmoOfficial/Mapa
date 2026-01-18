@@ -29,7 +29,8 @@
 
         #sidebar-list,
         #event-list,
-        #halloween-list {
+        #halloween-list,
+        #birthday-list {
             list-style: none;
             padding-left: 0;
             margin: 0;
@@ -37,7 +38,8 @@
 
         #sidebar-list li,
         #event-list li,
-        #halloween-list li {
+        #halloween-list li,
+        #birthday-list li {
             padding: 5px 8px;
             border-bottom: 1px solid #ccc;
             cursor: pointer;
@@ -45,7 +47,8 @@
 
         #sidebar-list li:hover,
         #event-list li:hover,
-        #halloween-list li:hover {
+        #halloween-list li:hover,
+        #birthday-list li:hover {
             background: #eee;
         }
 
@@ -189,6 +192,11 @@
                     </a>
                 </li>
                 <li>
+                    <a href="#birthday" role="tab" title="Urodziny 2026">
+                        <i class="fa fa-cake-candles"></i>
+                    </a>
+                </li>
+                <li>
                     <a href="#info" role="tab" title="Informacje">
                         <i class="fa fa-info-circle"></i>
                     </a>
@@ -219,6 +227,14 @@
                     <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
                 </h1>
                 <ul id="halloween-list"></ul>
+            </div>
+
+            <div class="leaflet-sidebar-pane" id="birthday">
+                <h1 class="leaflet-sidebar-header">
+                    Urodziny 2026 🎂
+                    <span class="leaflet-sidebar-close"><i class="fa fa-caret-left"></i></span>
+                </h1>
+                <ul id="birthday-list"></ul>
             </div>
 
             <div class="leaflet-sidebar-pane" id="info">
@@ -288,10 +304,12 @@
                 const pointsList = document.getElementById("sidebar-list");
                 const eventList = document.getElementById("event-list");
                 const halloweenList = document.getElementById("halloween-list");
+                const birthdayList = document.getElementById("birthday-list");
 
                 pointsList.innerHTML = "";
                 eventList.innerHTML = "";
                 halloweenList.innerHTML = "";
+                birthdayList.innerHTML = "";
 
                 let dealerCount = 0;
                 let eventCount = 0;
@@ -358,6 +376,17 @@
                         eventCount++;
                     }
 
+                    if (typeLower === "birthday") {
+                        const li = document.createElement("li");
+                        li.innerHTML = row.Title || `Birthday`;
+                        li.onclick = () => {
+                            map.setView([row.PosY, row.PosX], 2);
+                            marker.openPopup();
+                            sidebar.open("birthday");
+                        };
+                        birthdayList.appendChild(li);
+                    }
+
                 }
 
                 document.getElementById("dealer-count").textContent = dealerCount;
@@ -371,6 +400,7 @@
             document.querySelector('[href="#points"]').addEventListener("click", () => showCategory("dealer"));
             document.querySelector('[href="#event"]').addEventListener("click", () => showCategory("event"));
             document.querySelector('[href="#halloween"]').addEventListener("click", () => showCategory("halloween"));
+            document.querySelector('[href="#birthday"]').addEventListener("click", () => showCategory("birthday"));
         }
 
         function openimageZoom(src) {
