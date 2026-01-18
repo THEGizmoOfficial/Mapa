@@ -606,5 +606,37 @@
         "Description": "Zabiera wskazówkę #5 i 500$ daje wizytówke #2",
         "Title": "Bot #7",
         "Type": "birthday"
+    },
+    {
+        "PosX": -32.64,
+        "PosY": -1106.82,
+        "Image": "birthday26/B26_8.png",
+        "Description": "(Spawn 8-22) Zabiera wizytówke #2 daje zaproszenie - start spawnu NPC 19.01.2026",
+        "Title": "Bot #8",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -117.66,
+        "PosY": -1032.90,
+        "Image": "birthday26/B26_9.png",
+        "Description": "Zabiera 6 piw daje wskazówkę #15",
+        "Title": "Bot #9",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 2796.35,
+        "PosY": 6030.92,
+        "Image": "birthday26/B26_10.png",
+        "Description": "Zabiera woda 1L i wskazówkę #15 daje 5000$",
+        "Title": "Bot #10",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -113.97,
+        "PosY": -1034.25,
+        "Image": "birthday26/B26_11.png",
+        "Description": "6 Małp na żurawiu kazda daje piwo",
+        "Title": "Bonus Boty #1",
+        "Type": "birthday"
     }
 ]
