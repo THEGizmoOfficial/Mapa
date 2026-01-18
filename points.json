@@ -550,5 +550,61 @@
         "Description": "(Spawn 20-4) Daje piwo pi&wasser",
         "Title": "Bonus Bot #12",
         "Type": "Halloween"
+    },
+    {
+        "PosX": 1121.18,
+        "PosY": -744.66,
+        "Image": "birthday26/B26_1.png",
+        "Description": "Daje wskazówkę #1",
+        "Title": "Start Bot #1",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 371.59,
+        "PosY": -1612.29,
+        "Image": "birthday26/B26_2.png",
+        "Description": "Zabiera wskazówkę #1 daje wskazówkę #2",
+        "Title": "Bot #2",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 442.03,
+        "PosY": -978.88,
+        "Image": "birthday26/B26_3.png",
+        "Description": "Zabiera wskazówkę #2 daje Zdjęcie Proklina z manana i wskazówkę #3",
+        "Title": "Bot #3",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -187.80,
+        "PosY": -1167.20,
+        "Image": "birthday26/B26_4.png",
+        "Description": "Zabiera wskazówkę #3 daje wskazówkę #4",
+        "Title": "Bot #4",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -263.76,
+        "PosY": 98.91,
+        "Image": "birthday26/B26_5.png",
+        "Description": "Zabiera wskazówkę #4 daje wizytówke #1",
+        "Title": "Bot #5",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 2429.87,
+        "PosY": 4964.26,
+        "Image": "birthday26/B26_6.png",
+        "Description": "",
+        "Title": "Bot #6",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 994.49,
+        "PosY": 71.09,
+        "Image": "birthday26/B26_7.png",
+        "Description": "",
+        "Title": "Bot #7",
+        "Type": "birthday"
     }
 ]
