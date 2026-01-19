@@ -611,32 +611,120 @@
         "PosX": -32.64,
         "PosY": -1106.82,
         "Image": "birthday26/B26_8.png",
-        "Description": "(Spawn 8-22) Zabiera wizytówke #2 daje zaproszenie - start spawnu NPC 19.01.2026",
+        "Description": "(Spawn 8-22) Zabiera wizytówke #2 daje zaproszenie",
         "Title": "Bot #8",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -2125.77,
+        "PosY": -1004.76,
+        "Image": "birthday26/B26_9.png",
+        "Description": "(Spawn 20-6) Zabiera zaproszenie daje wskazówkę #6",
+        "Title": "Bot #9",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -223.13,
+        "PosY": 6243.14,
+        "Image": "birthday26/B26_10.png",
+        "Description": "Zabiera wskazówkę #6 daje wskazówkę #7",
+        "Title": "Bot #10",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -990.50,
+        "PosY": -2950.80,
+        "Image": "birthday26/B26_11.png",
+        "Description": "Zabiera wskazówkę #7 daje 5x napój energetyczny sprunk i wskazówkę #8",
+        "Title": "Bot #11",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -1141.29,
+        "PosY": -2005.29,
+        "Image": "birthday26/B26_12.png",
+        "Description": "Zabiera 5x napój energetyczny sprunk i wskazówkę #8 daje wskazówkę #9",
+        "Title": "Bot #12",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 2130.69,
+        "PosY": 4765.65,
+        "Image": "birthday26/B26_13.png",
+        "Description": "Zabiera wskazówkę #9 daje wskazówkę #10",
+        "Title": "Bot #13",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 1738.69,
+        "PosY": 2503.40,
+        "Image": "birthday26/B26_14.png",
+        "Description": "Zabiera wskazówkę #10 daje wskazówkę #11",
+        "Title": "Bot #14",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -103.55,
+        "PosY": 6470.46,
+        "Image": "birthday26/B26_15.png",
+        "Description": "Zabiera wskazówkę #11 daje wskazówkę #12",
+        "Title": "Bot #15",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 1851.13,
+        "PosY": 3690.91,
+        "Image": "birthday26/B26_16.png",
+        "Description": "Zabiera wskazówkę #12 daje wskazówkę #13",
+        "Title": "Bot #16",
         "Type": "birthday"
     },
     {
         "PosX": -117.66,
         "PosY": -1032.90,
-        "Image": "birthday26/B26_9.png",
+        "Image": "birthday26/B26_18.png",
         "Description": "Zabiera 6 piw daje wskazówkę #15",
-        "Title": "Bot #9",
+        "Title": "Bot #18",
         "Type": "birthday"
     },
     {
         "PosX": 2796.35,
         "PosY": 6030.92,
-        "Image": "birthday26/B26_10.png",
+        "Image": "birthday26/B26_19.png",
         "Description": "Zabiera woda 1L i wskazówkę #15 daje 5000$",
-        "Title": "Bot #10",
+        "Title": "Bot #19",
         "Type": "birthday"
     },
     {
         "PosX": -113.97,
         "PosY": -1034.25,
-        "Image": "birthday26/B26_11.png",
+        "Image": "birthday26/B26_20.png",
         "Description": "6 Małp na żurawiu kazda daje piwo",
         "Title": "Bonus Boty #1",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -2066.69,
+        "PosY": -1027.74,
+        "Image": "birthday26/B26_21.png",
+        "Description": "3 Szczury kazdy daje drink whisky",
+        "Title": "Bonus Boty #2",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -2068.37,
+        "PosY": -1018.27,
+        "Image": "birthday26/B26_22.png",
+        "Description": "Zabiera 3x drink whisky daje Nagroda i 1000$",
+        "Title": "Bonus Bot #3",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -2077.39,
+        "PosY": -1020.51,
+        "Image": "birthday26/B26_23.png",
+        "Description": "Daje zdjęcie",
+        "Title": "Sidequest Bot #1",
         "Type": "birthday"
     }
 ]
