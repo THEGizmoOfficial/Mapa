@@ -264,15 +264,21 @@
                 [-4041, -5690],
                 [8371, 6721],
             ];
-            const satellite = L.imageOverlay("images/maps/satellite.png", bounds).addTo(map);
+
+            const original = L.imageOverlay("images/maps/default.png", bounds).addTo(map);
+            const satellite = L.imageOverlay("images/maps/satellite.png", bounds);
             const atlas = L.imageOverlay("images/maps/atlas.png", bounds);
 
             var baseMaps = {
+                Original: original,
                 Satellite: satellite,
                 Atlas: atlas,
             };
 
             map.on('baselayerchange', function (layer) {
+                if (layer.name == 'Original') {
+                    document.getElementById('map').style.background = '#86adc0';
+                }
                 if (layer.name == 'Satellite') {
                     document.getElementById('map').style.background = '#143d6b';
                 }
