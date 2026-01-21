@@ -672,33 +672,73 @@
         "Type": "birthday"
     },
     {
+        "PosX": -888.92,
+        "PosY": -2985.77,
+        "Image": "birthday26/B26_16.png",
+        "Description": "Zabiera wskazówkę #12 i 50$ daje wskazówkę #13",
+        "Title": "Bot #16",
+        "Type": "birthday"
+    },
+    {
         "PosX": 1851.13,
         "PosY": 3690.91,
-        "Image": "birthday26/B26_16.png",
-        "Description": "Zabiera wskazówkę #12 daje wskazówkę #13",
-        "Title": "Bot #16",
+        "Image": "birthday26/B26_17.png",
+        "Description": "Zabiera wskazówkę #13 daje wskazówkę #14",
+        "Title": "Bot #17",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -347.47,
+        "PosY": -1580.21,
+        "Image": "birthday26/B26_18.png",
+        "Description": "Zabiera wskazówkę #14 daje przepustka",
+        "Title": "Bot #18",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -478.01,
+        "PosY": -2670.87,
+        "Image": "birthday26/B26_19.png",
+        "Description": "Zabiera przepustka daje dyplom 8 urodziny i 25000$",
+        "Title": "Koniec Bot #19",
         "Type": "birthday"
     },
     {
         "PosX": -117.66,
         "PosY": -1032.90,
-        "Image": "birthday26/B26_18.png",
+        "Image": "birthday26/B26_20.png",
         "Description": "Zabiera 6 piw daje wskazówkę #15",
-        "Title": "Bot #18",
+        "Title": "Start Sidequest Bot #1",
         "Type": "birthday"
     },
     {
         "PosX": 2796.35,
         "PosY": 6030.92,
-        "Image": "birthday26/B26_19.png",
+        "Image": "birthday26/B26_21.png",
         "Description": "Zabiera woda 1L i wskazówkę #15 daje 5000$",
-        "Title": "Bot #19",
+        "Title": "Koniec Sidequest Bot #2",
+        "Type": "birthday"
+    },
+    {
+        "PosX": -2077.39,
+        "PosY": -1020.51,
+        "Image": "birthday26/B26_22.png",
+        "Description": "Daje zdjęcie",
+        "Title": "Start Sidequest Bot #3",
+        "Type": "birthday"
+    },
+    {
+        "PosX": 1787.83,
+        "PosY": 4607.24,
+        "Image": "birthday26/B26_23.png",
+        "Description": "Zabiera zdjęcie daje 2000$",
+        "Title": "Koniec Sidequest Bot #4",
         "Type": "birthday"
     },
     {
         "PosX": -113.97,
         "PosY": -1034.25,
-        "Image": "birthday26/B26_20.png",
+        "Image": "birthday26/B26_24.png",
         "Description": "6 Małp na żurawiu kazda daje piwo",
         "Title": "Bonus Boty #1",
         "Type": "birthday"
@@ -706,7 +746,7 @@
     {
         "PosX": -2066.69,
         "PosY": -1027.74,
-        "Image": "birthday26/B26_21.png",
+        "Image": "birthday26/B26_25.png",
         "Description": "3 Szczury kazdy daje drink whisky",
         "Title": "Bonus Boty #2",
         "Type": "birthday"
@@ -714,17 +754,17 @@
     {
         "PosX": -2068.37,
         "PosY": -1018.27,
-        "Image": "birthday26/B26_22.png",
+        "Image": "birthday26/B26_26.png",
         "Description": "Zabiera 3x drink whisky daje Nagroda i 1000$",
         "Title": "Bonus Bot #3",
         "Type": "birthday"
     },
     {
-        "PosX": -2077.39,
-        "PosY": -1020.51,
-        "Image": "birthday26/B26_23.png",
-        "Description": "Daje zdjęcie",
-        "Title": "Sidequest Bot #1",
+        "PosX": -422.51,
+        "PosY": 2065.07,
+        "Image": "birthday26/B26_27.png",
+        "Description": "[Po wejsciu do jaskini nalezy isc w lewo i potem prawo] Daje zgniły mózg zombie",
+        "Title": "Bonus Bot #4",
         "Type": "birthday"
     }
 ]
